@@ -13,12 +13,6 @@ const initialCounters = [
   },
 ];
 
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/sabbir1257/redux_my_project.git
-git push -u origin main
 
 const App = () => {
   const [counters, setCounters] = React.useState(initialCounters);
